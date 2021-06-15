@@ -1,0 +1,76 @@
+/* Normal */
+#title {
+    background-color: whitesmoke;
+}
+
+.container-fluid{
+    padding: 2% 15%;
+   
+}
+
+
+nav {
+    font-family: 'Calibri', sans-serif;
+    
+}
+
+h1 {
+    font-family: 'Inter', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 500;
+    line-height: 1;
+}
+
+p {
+    font-family: 'Calibri', Arial, Helvetica, sans-serif;
+}
+
+.btn-outline-primary {
+    color: #5A66FF;
+}
+/* Navigation Bar */
+.navbar {
+    padding-bottom: 2.5rem;
+    
+}
+.nav-link{
+    font-weight: 10000;
+}
+.navbar-brand {
+    font-family: 'inter', sans-serif;
+    color: #5A66FF;
+}
+
+.nav-item-dropdown-toggle {
+    font-weight: 500;
+} 
+
+.img-fluid {
+    width: 37px;
+    padding-right: 5px;
+}
+
+.diamond {
+    margin-left: 8rem;
+}
+/* Links */
+.link-primary {
+     font-family: 'Calibri', sans-serif;
+     text-decoration: none;
+     color: #6447FF; 
+    }
+
+/* Button */
+.btn-toolbar {
+
+}
+
+.button-center {
+    font-family: 'Calibri', sans-serif;
+    margin: 5% 4% 5% 0;
+    box-shadow: 10px 10px 2px;
+}
+
+.btn1 {
+    color: #6447FF; 
+}
