@@ -17,17 +17,16 @@ nav {
 h1 {
     font-family: 'Inter', sans-serif;
     font-size: 2.5rem;
-    font-weight: 500;
-    line-height: 1;
+    font-weight: bold;
+    line-height: 1.3;
 }
 
 p {
     font-family: 'Calibri', Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
 }
 
-.btn-outline-primary {
-    color: #5A66FF;
-}
+
 /* Navigation Bar */
 .navbar {
     padding-bottom: 2.5rem;
@@ -41,8 +40,9 @@ p {
     color: #5A66FF;
 }
 
-.nav-item-dropdown-toggle {
+.dropdown {
     font-weight: 500;
+    padding-right: 2rem;
 } 
 
 .img-fluid {
@@ -55,22 +55,49 @@ p {
 }
 /* Links */
 .link-primary {
-     font-family: 'Calibri', sans-serif;
+     font-family: 'inter', sans-serif;
      text-decoration: none;
-     color: #6447FF; 
+     color: #6447FF;
+     font-size: .95rem; 
     }
 
 /* Button */
-.btn-toolbar {
 
-}
-
-.button-center {
+.button-center{
     font-family: 'Calibri', sans-serif;
-    margin: 5% 4% 5% 0;
-    box-shadow: 10px 10px 2px;
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 4% 4% 8% 0;
+    width: 10rem;
+    height: 2.8rem;
+    box-shadow: 7px 7px 1px #D5D6EA
+}
+#btnLearn {
+    color: white;
+    background-color: #5A66FF;
+}
+#btnContact, #btnSign{
+    color: #5A66FF;
+    border-color: #5A66FF;
+}
+#btnSign{
+    font-weight: 500;
 }
 
-.btn1 {
-    color: #6447FF; 
+#btnLearn:hover {
+    color: #5A66FF;
+    border-color: white;
+    background-color: white;
+    border-color: #5A66FF;
+}
+
+#btnContact:hover, #btnSign:hover {
+    background-color: #5A66FF;
+    color: white;
+}
+
+
+.fas {
+    padding-right: .5em;
+    color: #7982F5;
 }
