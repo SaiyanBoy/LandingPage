@@ -1,10 +1,10 @@
 /* Normal */
 #title {
-    background-color: whitesmoke;
+    background-image: linear-gradient(rgba(255, 255, 255), rgba(240, 245, 253));
 }
 
 .container-fluid{
-    padding: 2% 15%;
+    padding: 1% 6%;
    
 }
 
@@ -27,6 +27,7 @@ p {
 }
 
 
+
 /* Navigation Bar */
 .navbar {
     padding-bottom: 2.5rem;
@@ -35,30 +36,30 @@ p {
 .nav-link{
     font-weight: 10000;
 }
-.navbar-brand {
-    font-family: 'inter', sans-serif;
-    color: #5A66FF;
-}
 
 .dropdown {
     font-weight: 500;
-    padding-right: 2rem;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
 } 
 
 .img-fluid {
-    width: 37px;
+    width: 35px;
     padding-right: 5px;
 }
 
 .diamond {
     margin-left: 8rem;
+    margin-top: 14rem;
+    margin-bottom: 6rem;
 }
 /* Links */
 .link-primary {
      font-family: 'inter', sans-serif;
      text-decoration: none;
      color: #6447FF;
-     font-size: .95rem; 
+     font-size: .95rem;
+     position: absolute; 
     }
 
 /* Button */
@@ -82,6 +83,7 @@ p {
 }
 #btnSign{
     font-weight: 500;
+    width: 8rem;
 }
 
 #btnLearn:hover {
@@ -100,4 +102,57 @@ p {
 .fas {
     padding-right: .5em;
     color: #7982F5;
+}
+
+.pricing {
+    margin-top: 10px;
+    display: flex;
+    color: rgba(0,0,0,.55);
+}
+
+.pricing-name {
+    margin-right: 5px;
+}
+
+.business {
+    margin-top: 10px;
+    display: flex;
+    color: rgba(0,0,0,.55);
+}
+
+.business-name {
+    margin-right: 5px;
+}
+
+.features {
+    margin-top: 10px;
+    display: flex;
+    color: rgba(0,0,0,.55);
+}
+
+.features-name {
+    margin-right: 5px;
+}
+
+.reality-title{
+    display: flex;
+    font-family: 'inter', sans-serif;
+    font-size: 19px;
+    font-weight: bolder;
+    margin-left: 2px;
+}
+
+.reality-blue{
+    color: #5A66FF;
+}
+
+.main-section{
+    margin-left: 8rem;
+    margin-top: 2rem;
+}
+
+@media (max-width: 1000px) {
+    .big-image{
+        display: none;
+    }
 }
